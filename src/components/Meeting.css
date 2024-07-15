@@ -1,0 +1,45 @@
+.meeting-group{
+    position:absolute;
+    width: 438px;
+    height: 81px;
+    top: 371px;
+    left: 130px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.input-group{
+    position:absolute;
+    width: 438px;
+    height: 49px;
+    top: 53px;
+    left: 70px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+.input-meeting{
+position: absolute;
+width: 346px;
+height: 49px;
+top: 20px;
+left: 81px;
+gap: 0px;
+border-radius: 14px;
+opacity: 0px;
+color: #FFFFFF;
+}
+.button-meeting{
+    position:absolute;  
+    
+    top: 27px;
+    left: 459px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    opacity: 0px;
+    padding:10px;
+    text-align: center;
+    background: #3D65C5;
+}

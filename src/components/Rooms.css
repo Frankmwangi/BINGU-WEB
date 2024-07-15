@@ -1,0 +1,76 @@
+.rooms-group{
+    width: 1043px;
+    height: 164px;
+    top: 502px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.public-room-group{
+    position:absolute;
+    width: 465px;
+    height: 164px;
+    top: 530px;
+    left: 270px;
+    gap: 0px;
+    border-radius: 14px;
+    opacity: 0px;
+    background: #000000;
+}
+.text-public{
+    margin-left: 20px;
+   width: 84px;
+    height: 20px;
+    top: 513px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: K2D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text-info{
+    margin-left: 12px;
+    width: 240px;
+    height: 16px;
+    top: 535px;
+    left: 98px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: K2D;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text-choose{
+    margin-left: 15px;
+    width: 106px;
+    height: 9px;
+    top: 563px;
+    left: 98px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: K2D;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 9.1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.input-choose{
+    margin-left: 10px;
+    width: 420px;
+    height: 25px;
+    top: 575px;
+    left: 98px;
+    gap: 0px;
+    border-radius: 7px;
+    opacity: 0px;
+
+}

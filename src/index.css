@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-title-group{
+  position:relative;
+  width: 1059px;
+  height: 285px;
+  top: 17px;
+  left:270px;
+  gap: 0px;
+  border-radius: 16px;
+  background-color: #000000;
+  
+    opacity: 0px;
+}
+.heading-bingu{
+  color:  #FFFFFF;
+  position: relative;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55.15px;
+  text-align: center;
+  width: 152px;
+  height: 55px;
+  top: 67px;
+  left: 455px;
+  gap: 0px;
+  opacity: 0px;
+}
+.microphone{
+  position:absolute;
+  width: 38px;
+  height: 46px;
+  top: 121.8px;
+  left: 510px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.info-bingu{
+  position: absolute;
+  width: Hug (696px)px;
+  height: Fixed (134px)px;
+  top: 184px;
+  left: 150px;
+  gap: 70px;
+  opacity: 0px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+.info-discover{
+  color: #FFFFFF;
+  font-family: Myriad Pro Semibold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 1px;
+  text-align: center;
+ 
+}
+.info-set{
+  color: #FFFFFF;
+  font-family: K2D;
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 31.2px;
+  text-align: center;
+
+
+}
