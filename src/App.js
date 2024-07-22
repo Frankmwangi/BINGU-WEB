@@ -4,24 +4,24 @@ import SideMenu from './components/SideMenu.js';
 import microphone from './assets/microphone.png';
 import Meeting from './components/Meeting.js';
 import Rooms from './components/Rooms.js';
+import { Routes, Route } from 'react-router-dom';
+import Component from './components/layout/sidebar.js';
+import Home from './components/Home/home.js';
 
 
 function App() {
   return (
-    <div className="App">
-    <SideMenu />
+    <div className="App relative h-screen overflow-hidden rounded-md font-antialised m-[0.5] ">
+    {/* <SideMenu />
     <div className="main-content">
-      <div className="main-title-group">
-      <h1 className="heading-bingu">BINGU</h1>
-      <img src={microphone} alt="microphone" className="microphone" />
-      <div className="info-bingu">
-        <p className="info-discover">DISCOVER YOUR FINANCIAL POTENTIAL</p>
-        <p className="info-set">Set Up Audio Meetings.Both Public and Private</p>
-      </div>
-      </div>
-      <Meeting/>
-      <Rooms/>
-    </div>
+      
+    </div> */}
+    <Routes>
+      <Route  element={<Component />}>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/room' element={<Rooms/>}/>
+      </Route>
+    </Routes>
   </div>
   );
 }

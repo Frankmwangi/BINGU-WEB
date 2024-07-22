@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content:flex-start ;
     align-items: center;
+    transition: width 0.3s;
   }
   .logo{
     width: 66px;
@@ -21,7 +22,7 @@
     top: 46px;
     right:5px;
     gap: 0px;
-opacity: 0px;
+    opacity: 0px;
 
   }
   .menu-list {
@@ -35,6 +36,7 @@ opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 15em;
   }
   
   .menu-list li {
@@ -63,5 +65,4 @@ opacity: 0px;
   .menu-list li a i {
     margin-bottom: 5px; /* Space between icon and text */
   }
- 
   
